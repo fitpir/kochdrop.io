@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api.php
+Disallow: /data/
+Disallow: /steam-check.php

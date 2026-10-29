@@ -1,0 +1,452 @@
+{
+"cfg": {
+"edge": 5,
+"minBet": 10,
+"maxBet": 100000,
+"topup": true,
+"topupMax": 100000,
+"start": 2500
+},
+"rar": [
+{
+"name": "Армейское",
+"color": "#66aaff",
+"w": 79.92
+},
+{
+"name": "Запрещённое",
+"color": "#a879ff",
+"w": 15.98
+},
+{
+"name": "Засекреченное",
+"color": "#e879ff",
+"w": 3.2
+},
+{
+"name": "Тайное",
+"color": "#ff596b",
+"w": 0.64
+},
+{
+"name": "Нож / перчатки",
+"color": "#ffc95a",
+"w": 0.26
+}
+],
+"skins": [
+{
+"id": 0,
+"name": "AK-47 | Slate",
+"r": 0,
+"p": 40,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 1,
+"name": "Galil AR | Chromatic Aberration",
+"r": 0,
+"p": 30,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 2,
+"name": "MP9 | Food Chain",
+"r": 0,
+"p": 45,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 3,
+"name": "P250 | See Ya Later",
+"r": 0,
+"p": 60,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 4,
+"name": "Glock-18 | Vogue",
+"r": 0,
+"p": 85,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 5,
+"name": "USP-S | Cortex",
+"r": 1,
+"p": 120,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 6,
+"name": "AWP | Atheris",
+"r": 1,
+"p": 190,
+"e": "🎯",
+"img": ""
+},
+{
+"id": 7,
+"name": "M4A1-S | Decimator",
+"r": 1,
+"p": 420,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 8,
+"name": "Glock-18 | Water Elemental",
+"r": 1,
+"p": 650,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 9,
+"name": "AK-47 | Redline",
+"r": 2,
+"p": 1500,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 10,
+"name": "Desert Eagle | Code Red",
+"r": 2,
+"p": 1100,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 11,
+"name": "M4A1-S | Cyrex",
+"r": 2,
+"p": 900,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 12,
+"name": "AK-47 | Vulcan",
+"r": 2,
+"p": 4800,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 13,
+"name": "AK-47 | Neon Rider",
+"r": 3,
+"p": 3600,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 14,
+"name": "Desert Eagle | Printstream",
+"r": 3,
+"p": 2800,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 15,
+"name": "M4A4 | The Emperor",
+"r": 3,
+"p": 3200,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 16,
+"name": "AWP | Hyper Beast",
+"r": 3,
+"p": 4900,
+"e": "🎯",
+"img": ""
+},
+{
+"id": 17,
+"name": "AWP | Dragon Lore",
+"r": 3,
+"p": 160000,
+"e": "🎯",
+"img": ""
+},
+{
+"id": 18,
+"name": "AK-47 | Fire Serpent",
+"r": 3,
+"p": 90000,
+"e": "🔫",
+"img": ""
+},
+{
+"id": 19,
+"name": "Karambit | Doppler",
+"r": 4,
+"p": 95000,
+"e": "🔪",
+"img": ""
+},
+{
+"id": 20,
+"name": "Butterfly Knife | Fade",
+"r": 4,
+"p": 175000,
+"e": "🔪",
+"img": ""
+},
+{
+"id": 21,
+"name": "Sport Gloves | Vice",
+"r": 4,
+"p": 150000,
+"e": "🧤",
+"img": ""
+},
+{
+"id": 22,
+"name": "Bayonet | Doppler",
+"r": 4,
+"p": 60000,
+"e": "🔪",
+"img": ""
+},
+{
+"id": 23,
+"name": "Karambit | Fade",
+"r": 4,
+"p": 140000,
+"e": "🔪",
+"img": ""
+}
+],
+"cases": [
+{
+"id": 1,
+"name": "Неоновый старт",
+"desc": "Яркие скины для первого дропа",
+"price": 170,
+"icon": "📦",
+"weapon": "🔫",
+"glow": "#54d9ff",
+"tag": "ПОПУЛЯРНЫЙ",
+"real": "Prisma 2 Case",
+"img": "",
+"on": true,
+"odds": null,
+"skins": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+9,
+10,
+14,
+13
+]
+},
+{
+"id": 2,
+"name": "Тактический",
+"desc": "Классика для настоящих бойцов",
+"price": 230,
+"icon": "🧰",
+"weapon": "🎯",
+"glow": "#c7ff4a",
+"tag": "ВЫГОДНЫЙ",
+"real": "CS20 Case",
+"img": "",
+"on": true,
+"odds": null,
+"skins": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+11,
+12,
+15,
+16
+]
+},
+{
+"id": 3,
+"name": "Фиолетовый шторм",
+"desc": "Больше шансов на яркие скины",
+"price": 1370,
+"icon": "💜",
+"weapon": "🔫",
+"glow": "#a879ff",
+"tag": "ХИТ",
+"real": "Spectrum Case",
+"img": "",
+"on": true,
+"odds": [
+55,
+28,
+12,
+4,
+1
+],
+"skins": [
+2,
+3,
+5,
+6,
+7,
+8,
+12,
+11,
+13,
+16,
+22
+]
+},
+{
+"id": 4,
+"name": "Красная тревога",
+"desc": "Охота за тайными предметами",
+"price": 4390,
+"icon": "🧨",
+"weapon": "🔫",
+"glow": "#ff596b",
+"tag": "РЕДКИЙ",
+"real": "Fracture Case",
+"img": "",
+"on": true,
+"odds": [
+60,
+25,
+10,
+4,
+1
+],
+"skins": [
+3,
+4,
+6,
+7,
+8,
+12,
+11,
+13,
+14,
+17,
+18,
+19
+]
+},
+{
+"id": 5,
+"name": "Охотник за ножами",
+"desc": "Ножи и перчатки — золотая мечта",
+"price": 7600,
+"icon": "🔪",
+"weapon": "🔪",
+"glow": "#ffc95a",
+"tag": "GOLD DROP",
+"real": "Huntsman Weapon Case",
+"img": "",
+"on": true,
+"odds": [
+55,
+25,
+12,
+5,
+3
+],
+"skins": [
+3,
+4,
+7,
+8,
+12,
+18,
+16,
+19,
+20,
+22,
+23,
+21
+]
+},
+{
+"id": 6,
+"name": "Koch Premium",
+"desc": "Коллекция для самых смелых",
+"price": 9440,
+"icon": "👑",
+"weapon": "🧤",
+"glow": "#ff67b4",
+"tag": "PREMIUM",
+"real": "Dreams & Nightmares Case",
+"img": "",
+"on": true,
+"odds": [
+45,
+28,
+16,
+7,
+4
+],
+"skins": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20,
+21,
+22,
+23
+]
+}
+],
+"promos": [
+{
+"code": "KOCH500",
+"amount": 500,
+"max": 100,
+"used": 0
+},
+{
+"code": "WELCOME",
+"amount": 1000,
+"max": 50,
+"used": 0
+}
+]
+}

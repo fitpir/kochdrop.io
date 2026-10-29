@@ -1,0 +1,25 @@
+# Cloudflare Workers: сайт + серверная часть (замена api.php).
+# Деплой: npx wrangler deploy   (или подключите репозиторий в Workers & Pages -> Create -> Import a repository)
+name = "koch-drop-io"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./public_html"
+binding = "ASSETS"
+# Только /api.php сначала попадает в Worker; остальное отдаётся как статика
+run_worker_first = ["/api.php"]
+
+[[durable_objects.bindings]]
+name = "GAME"
+class_name = "Game"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Game"]
+
+# Секреты НЕ пишите сюда. Задайте их командами:
+#   npx wrangler secret put ADMIN_IDS        (SteamID64 админов через запятую)
+#   npx wrangler secret put ADMIN_PIN        (PIN админки)
+#   npx wrangler secret put STEAM_API_KEY    (необязательно: ник и аватар)
+# Необязательно: BASE_URL (если сайт на своём домене за прокси), SESSION_SECRET (иначе создаётся сам).
